@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/26.0">
+  <id>SoccerCode</id>
+  <versionNumber>1.2.0</versionNumber>
+  <versionLabel></versionLabel>
+  <filename>Soccer Code</filename>
+  <description/>
+  <name>Soccer Code</name>
+  <copyright/>
+  <initialWindow>
+    <content>Soccer%20Code.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    
+    <renderMode>auto</renderMode>
+    <autoOrients>false</autoOrients>
+    
+    <aspectRatio>portrait</aspectRatio></initialWindow>
+  <icon>
+    <image192x192>AppIconsForPublish/logoAsset%202.png</image192x192>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <android>
+    <manifestAdditions><![CDATA[<manifest>
+<uses-permission android:name="android.permission.WAKE_LOCK"/>
+</manifest>]]></manifestAdditions>
+  </android>
+  <supportedLanguages>en</supportedLanguages></application>
